@@ -67,7 +67,7 @@
 
 .heading h1 {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 65px;
 }
 
 .heading p {
@@ -78,9 +78,12 @@
     display: flex;
     color: white;
     background-color: rgba(0, 0, 0, .62);
-    width: 300px;
-
+    width: 600px;
+    height: 90px;
     margin: 30px 0 0 117px;
+   
+    justify-content: space-between;
+    align-items: center;
 }
 
 .one {
@@ -95,7 +98,7 @@
 .box {
     padding: 0 18%;
     position: absolute;
-    width: 100%;
+    /* width: 100%; */
     top: 90%;
 
 
@@ -105,36 +108,37 @@
     display: flex;
 
     border-radius: 20px;
-    padding: 17px 52px;
+    padding: 20px 30px;
     background: white;
     width: 100%;
     box-shadow: 2px 2px 10px 4px rgba(100, 100, 100, .5);
 }
 
 .box-1 .block {
-    padding: 0 7%;
+    padding: 0 20px;
     border-right: 1px solid;
 
 
 }
-
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    column-gap: 20px;
+}
 .box-1 .block button {
-    padding: 7px 15px;
+   padding: 10px 60px;
     font-size: 20px;
     background-color: black;
     color: white;
-    border-radius: 7px;
+    border-radius: 40px;
+  margin: auto;
+  text-align: center;
 }
 
 #search {
     border-right: none;
-}
-
-.block i p {
-    font-size: 10px;
-    font-weight: 100;
-    align-items: center;
-
+  
 }
 
 .box-1 p {
